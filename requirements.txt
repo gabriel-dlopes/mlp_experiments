@@ -1,0 +1,15 @@
+#core
+numpy
+pandas
+scikit-learn
+matplotlib
+
+#deep Learning
+tensorflow>=2.11.0
+
+#config management
+hydra-core
+omegaconf
+
+#jupyter (for notebooks/EDA)
+#jupyter
