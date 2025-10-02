@@ -1,0 +1,6 @@
+enable: true            #master on/off for all plotting
+acc: true               
+loss: true              
+confidence: true       
+weights: true
+#decision_boundary: true 

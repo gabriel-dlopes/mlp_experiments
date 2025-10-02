@@ -1,0 +1,7 @@
+name: simple
+batch_size: 64
+n_samples: 500
+preprocessing: true
+split:
+  test_size: 0.3 #percentage of the full dataset to be used in the test dataset
+  stratify: true #preserve the class proportion on training/test subsets

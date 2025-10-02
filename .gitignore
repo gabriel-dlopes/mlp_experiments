@@ -1,0 +1,20 @@
+#python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#virtual environments
+.venv/
+venv/
+
+#hydra outputs (experiments)
+outputs/
+
+#jupyter checkpoints
+.ipynb_checkpoints/
+*.ipynb~
+
+#system files
+.DS_Store
+Thumbs.db

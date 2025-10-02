@@ -1,0 +1,8 @@
+name: mandala_noise
+batch_size: 64
+n_sample_clusters: 30
+n_points_circle: 500
+preprocessing: true
+split:
+  test_size: 0.3 #percentage of the full dataset to be used in the test dataset
+  stratify: true #preserve the class proportion on training/test subsets

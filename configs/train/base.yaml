@@ -1,0 +1,10 @@
+epochs: 10 #number of training epochs
+weight_snap_interval: 10
+lr_strategy: constant #write all the possibilities
+lr: 0.001
+
+l2: # L2 regularization specs
+  enable: false
+  init_strategy: value 
+  init: 0.001
+  schedule: constant

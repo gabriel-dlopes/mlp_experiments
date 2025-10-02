@@ -1,0 +1,6 @@
+early_stopping: #early_stopping specs
+  enable: true
+  monitor: val_loss
+  patience: 15
+  delta: 0.0
+  restore_best_weights: true

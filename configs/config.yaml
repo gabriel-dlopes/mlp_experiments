@@ -1,0 +1,16 @@
+defaults:
+  - data: super_simple
+  - model: dnn_small
+  - train: base
+  - callbacks: base
+  - plots: base
+  - _self_
+
+hydra:
+  run:
+    #single runs
+    dir: outputs/${data.name}/${model.units}/run_${now:%H-%M-%S}_nep_${train.epochs}
+  sweep:
+    #multiple_runs
+    dir: outputs/${data.name}/${model.name}
+    subdir: run_${now:%H-%M-%S}s_nep_${train.epochs}_r${hydra.job.num}

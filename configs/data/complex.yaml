@@ -1,0 +1,9 @@
+name: complex
+batch_size: 64
+n_sample_clusters: 50
+cluster_noise: 0.4
+n_sample_rings: 300
+preprocessing: true
+split:
+  test_size: 0.3 #percentage of the full dataset to be used in the test dataset
+  stratify: true #preserve the class proportion on training/test subsets

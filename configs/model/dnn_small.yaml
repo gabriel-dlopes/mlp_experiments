@@ -1,0 +1,4 @@
+name: "5"
+units: 5  #defines only hidden layers
+activation: relu #activation function used in the hidden layers
+activation_out: softmax #output activation function
